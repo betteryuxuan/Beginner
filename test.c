@@ -2,9 +2,8 @@
 #include <stdio.h>
 #include <assert.h>
 char* my_strcpy(char* des, const char* src)
-//char*类型允许链式访问
 {
-	//断言
+
 	assert(des != NULL);
 	assert(src != NULL);
 	char* ret = des;
